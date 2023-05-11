@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Register,,,,2023-05-11 22:29:02,2023-05-11 22:30:39,1m - 36.557s,PASSED
+,,,,,,,
+Test Cases/Test - Surplus/Surplus - Login - Register - Positive,,,,2023-05-11 22:29:03,2023-05-11 22:30:00,57.451s,PASSED
+"startApplication(""C:\Users\lina\Downloads\Sample Android App - Login Tes_4.0_Apkpure.apk"", true)",,,,2023-05-11 22:29:03,2023-05-11 22:29:36,32.917s,PASSED
+"comment(""Masuk ke menu register"")",,,,2023-05-11 22:29:36,2023-05-11 22:29:36,0.062s,PASSED
+"tap(findTestObject(""Surplus Test/android.widget.TextView - No account yet Create one""), 30)",,,,2023-05-11 22:29:36,2023-05-11 22:29:38,1.291s,PASSED
+"setText(findTestObject(""Surplus Test/android.widget.EditText (7)""), ""Aulia Lina"", 30)",,,,2023-05-11 22:29:38,2023-05-11 22:29:39,1.863s,PASSED
+"setText(findTestObject(""Surplus Test/android.widget.EditText (8)""), ""aulialina@gmail.com"", 30)",,,,2023-05-11 22:29:39,2023-05-11 22:29:41,1.088s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Surplus Test/android.widget.EditText (19)""), ""nU4N056oGUaS6k35Yg4klw=="", 30)",,,,2023-05-11 22:29:41,2023-05-11 22:29:42,1.144s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Surplus Test/android.widget.EditText (20)""), ""nU4N056oGUaS6k35Yg4klw=="", 30)",,,,2023-05-11 22:29:42,2023-05-11 22:29:43,1.099s,PASSED
+"comment(""Memasukkan data  Nama, Email, Password, Konfirmasi Password Sesuai Ketentuan"")",,,,2023-05-11 22:29:43,2023-05-11 22:29:43,0.003s,PASSED
+"tap(findTestObject(""Object Repository/Surplus Test/android.widget.Button - REGISTER (3)""), 30)",,,,2023-05-11 22:29:43,2023-05-11 22:29:43,0.584s,PASSED
+"comment(""Berhasil Membuat Akun dan Masuk Ke Halaman Login"")",,,,2023-05-11 22:29:43,2023-05-11 22:29:43,0.004s,PASSED
+"tap(findTestObject(""Object Repository/Surplus Test/android.widget.TextView - Already a member Login""), 30)",,,,2023-05-11 22:29:43,2023-05-11 22:29:44,0.744s,PASSED
+"setText(findTestObject(""Surplus Test/android.widget.EditText (13)""), ""aulialina@gmail.com"", 30)",,,,2023-05-11 22:29:44,2023-05-11 22:29:46,1.821s,PASSED
+"setEncryptedText(findTestObject(""Surplus Test/android.widget.EditText (14)""), ""nU4N056oGUaS6k35Yg4klw=="", 30)",,,,2023-05-11 22:29:46,2023-05-11 22:29:47,1.093s,PASSED
+"comment(""Memasukkan data email dan password yang telah terdaftar"")",,,,2023-05-11 22:29:47,2023-05-11 22:29:47,0.003s,PASSED
+"tap(findTestObject(""Surplus Test/android.widget.Button - LOGIN (1)""), 30)",,,,2023-05-11 22:29:47,2023-05-11 22:29:48,0.585s,PASSED
+"getText(findTestObject(""Object Repository/Surplus Test/android.widget.TextView - aulialinagmail.com""), 30)",,,,2023-05-11 22:29:48,2023-05-11 22:29:49,1.539s,PASSED
+"getText(findTestObject(""Object Repository/Surplus Test/android.widget.TextView - Aulia Lina""), 0)",,,,2023-05-11 22:29:49,2023-05-11 22:29:49,0.242s,PASSED
+"getText(findTestObject(""Object Repository/Surplus Test/android.widget.TextView - aulialinagmail.com (1)""), 0)",,,,2023-05-11 22:29:49,2023-05-11 22:29:50,0.285s,PASSED
+"getText(findTestObject(""Object Repository/Surplus Test/android.widget.TextView - aulialina""), 0)",,,,2023-05-11 22:29:50,2023-05-11 22:29:50,0.191s,PASSED
+hideKeyboard(),,,,2023-05-11 22:29:50,2023-05-11 22:29:50,0.357s,PASSED
+closeApplication(),,,,2023-05-11 22:29:50,2023-05-11 22:30:00,9.842s,PASSED
+,,,,,,,
+Test Cases/Test - Surplus/Surplus - Register - Login - Negative,,,,2023-05-11 22:30:01,2023-05-11 22:30:39,38.122s,PASSED
+"startApplication(""C:\Users\lina\Downloads\Sample Android App - Login Tes_4.0_Apkpure.apk"", true)",,,,2023-05-11 22:30:01,2023-05-11 22:30:20,19.451s,PASSED
+"tap(findTestObject(""Object Repository/Surplus Test/android.widget.TextView - No account yet Create one (3)""), 30)",,,,2023-05-11 22:30:20,2023-05-11 22:30:21,0.466s,PASSED
+"comment(""Semua Form Dikosongi"")",,,,2023-05-11 22:30:21,2023-05-11 22:30:21,0.003s,PASSED
+"tap(findTestObject(""Surplus Test/android.widget.Button - REGISTER (1)""), 30)",,,,2023-05-11 22:30:21,2023-05-11 22:30:22,1.067s,PASSED
+"getText(findTestObject(""Object Repository/Surplus Test/android.widget.TextView - Enter Full Name""), 30)",,,,2023-05-11 22:30:22,2023-05-11 22:30:23,0.743s,PASSED
+"setText(findTestObject(""Object Repository/Surplus Test/android.widget.EditText (21)""), ""Linaaaaaa"", 30)",,,,2023-05-11 22:30:23,2023-05-11 22:30:23,0.778s,PASSED
+"comment(""Form Email dan Password Dikosongi"")",,,,2023-05-11 22:30:23,2023-05-11 22:30:23,0.003s,PASSED
+"tap(findTestObject(""Object Repository/Surplus Test/android.widget.Button - REGISTER (5)""), 30)",,,,2023-05-11 22:30:23,2023-05-11 22:30:25,1.379s,PASSED
+"setText(findTestObject(""Object Repository/Surplus Test/android.widget.EditText (22)""), ""lina@gmail.com"", 30)",,,,2023-05-11 22:30:25,2023-05-11 22:30:26,0.783s,PASSED
+"comment(""Form Password Dikosongi"")",,,,2023-05-11 22:30:26,2023-05-11 22:30:26,0.002s,PASSED
+"tap(findTestObject(""Surplus Test/android.widget.Button - REGISTER (1)""), 30)",,,,2023-05-11 22:30:26,2023-05-11 22:30:26,0.605s,PASSED
+"getText(findTestObject(""Object Repository/Surplus Test/android.widget.TextView - Enter Password""), 30)",,,,2023-05-11 22:30:26,2023-05-11 22:30:27,0.679s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Surplus Test/android.widget.EditText (23)""), ""1qrNa99UBkUp8Q497NPGjg=="", 30)",,,,2023-05-11 22:30:27,2023-05-11 22:30:28,0.698s,PASSED
+"comment(""Form Konfirmasi Password Dikosongi"")",,,,2023-05-11 22:30:28,2023-05-11 22:30:28,0.003s,PASSED
+"tap(findTestObject(""Surplus Test/android.widget.Button - REGISTER (1)""), 30)",,,,2023-05-11 22:30:28,2023-05-11 22:30:28,0.568s,PASSED
+"getText(findTestObject(""Object Repository/Surplus Test/android.widget.TextView - Password Does Not Matches""), 30)",,,,2023-05-11 22:30:28,2023-05-11 22:30:29,0.729s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Surplus Test/android.widget.EditText (24)""), ""4Uo44/4IaYg="", 30)",,,,2023-05-11 22:30:29,2023-05-11 22:30:30,0.657s,PASSED
+"comment(""Form Konfirmasi Password Tidak sesuai sebelumnya"")",,,,2023-05-11 22:30:30,2023-05-11 22:30:30,0.002s,PASSED
+"tap(findTestObject(""Surplus Test/android.widget.Button - REGISTER (1)""), 30)",,,,2023-05-11 22:30:30,2023-05-11 22:30:30,0.568s,PASSED
+"getText(findTestObject(""Surplus Test/android.widget.TextView - Password Does Not Matches""), 30)",,,,2023-05-11 22:30:30,2023-05-11 22:30:31,0.560s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Surplus Test/android.widget.EditText -""), ""1qrNa99UBkUp8Q497NPGjg=="", 30)",,,,2023-05-11 22:30:31,2023-05-11 22:30:31,0.659s,PASSED
+"tap(findTestObject(""Object Repository/Surplus Test/android.widget.TextView - Already a member Login (1)""), 30)",,,,2023-05-11 22:30:31,2023-05-11 22:30:32,0.573s,PASSED
+"comment(""Semua Form Login Dikosongi"")",,,,2023-05-11 22:30:32,2023-05-11 22:30:32,0.002s,PASSED
+"tap(findTestObject(""Object Repository/Surplus Test/android.widget.Button - LOGIN (3)""), 30)",,,,2023-05-11 22:30:32,2023-05-11 22:30:33,0.625s,PASSED
+"getText(findTestObject(""Object Repository/Surplus Test/android.widget.TextView - Enter Valid Email (1)""), 30)",,,,2023-05-11 22:30:33,2023-05-11 22:30:33,0.653s,PASSED
+"setText(findTestObject(""Object Repository/Surplus Test/android.widget.EditText (25)""), ""lina@gmail.com"", 30)",,,,2023-05-11 22:30:33,2023-05-11 22:30:34,0.669s,PASSED
+"comment(""Form Password dikosongi"")",,,,2023-05-11 22:30:34,2023-05-11 22:30:34,0.003s,PASSED
+"tap(findTestObject(""Object Repository/Surplus Test/android.widget.Button - LOGIN (4)""), 30)",,,,2023-05-11 22:30:34,2023-05-11 22:30:34,0.553s,PASSED
+"getText(findTestObject(""Object Repository/Surplus Test/android.widget.TextView - Enter Valid Email (2)""), 30)",,,,2023-05-11 22:30:34,2023-05-11 22:30:35,0.642s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Surplus Test/android.widget.EditText (26)""), ""iGDxf8hSRT4="", 30)",,,,2023-05-11 22:30:35,2023-05-11 22:30:36,0.651s,PASSED
+"comment(""Memasukkan Password Salah"")",,,,2023-05-11 22:30:36,2023-05-11 22:30:36,0.002s,PASSED
+"tap(findTestObject(""Surplus Test/android.widget.Button - LOGIN (4)""), 30)",,,,2023-05-11 22:30:36,2023-05-11 22:30:36,0.554s,PASSED
+"setText(findTestObject(""Object Repository/Surplus Test/android.widget.EditText (25)""), ""lin@gmail.com"", 30)",,,,2023-05-11 22:30:36,2023-05-11 22:30:37,1.200s,PASSED
+"tap(findTestObject(""Surplus Test/android.widget.Button - LOGIN (4)""), 30, STOP_ON_FAILURE)",,,,2023-05-11 22:30:37,2023-05-11 22:30:38,0.559s,PASSED
+"comment(""Password Tidak Sesuai"")",,,,2023-05-11 22:30:38,2023-05-11 22:30:38,0.002s,PASSED
+closeApplication(),,,,2023-05-11 22:30:38,2023-05-11 22:30:39,0.603s,PASSED
